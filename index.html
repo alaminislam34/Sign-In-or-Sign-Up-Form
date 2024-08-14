@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing up or Sing in Page</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-sign-in" id="loginForm">
+            <h1>Sign In</h1>
+            <div class="sign-in-icon">
+                <i class='bx bxl-google-plus'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-github'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <div class="form-message-container">
+                <span>Or use your email and password</span>
+            </div>
+            <form>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="submit"> Sign in</button>
+                <a href="#">Forgot Your Password</a>
+            </form>
+            <p>Don't have an account <a href="#" id="showSignup">Sign Up</a></p>
+        </div>
+        <div class="login-sign-up hidden" id="signupForm">
+            <h1>Create An Account</h1>
+            <div class="sign-in-icon">
+                <i class='bx bxl-google-plus'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-github'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <div class="form-message-container">
+                <span>Or use your email for registration</span>
+            </div>
+            <form>
+                <input type="text" placeholder="Name" >
+                <input type="email" placeholder="Email" >
+                <input type="password" placeholder="Password" >
+                <button type="submit"> Sign Up</button>
+            </form>
+            <p>Already have an account?<a href="#" id="showLogin">Sign In</a></p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
